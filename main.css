@@ -1,0 +1,151 @@
+* {margin:0;padding:0}
+.fleft {float:left}
+.fright {float:right}
+.fcenter {float:none;text-align:center}
+.fclear {clear:both}
+.inner_copy {border:0;color:#f00;float:right;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+body {padding:0;margin:0px 0 0;background:#FFECFF;color:#CD7A7A;font:12px/14px Arial,Helvetica,sans-serif}
+div, p, ul, h2, h3, h4, h5, form, img {padding:0;margin:0}
+ul {list-style-type:none}
+/* TOP PANEL */
+#topPan {width:778px;height:113px;position:relative;margin:0 auto;background:url(images/toppan-bg2.jpg) 0 0 repeat-x}
+#topPan img.logo {width:219px;height:58px;position:absolute;top:13px;left:104px}
+#topPan img.logo2 {width:82px;height:107px;position:relative;top:3px;left:54px}
+#topPan ul {width:486px;height:30px;position:absolute;top:83px;left:146px;}
+#topPan ul li {width:81px;height:30px;float:left;border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:solid;border-color:#FFECFF; font-size:xx-large }
+#topPan ul li a {width:81px;height:30px;display:block;background:url(images/menu-bg.gif) 0 0 repeat-x #2F0000;color:#fff;font:12px/30px "Trebuchet MS", Arial,Helvetica,sans-serif;font-weight:bold;text-align:center;text-decoration:none}
+#topPan ul li a:hover {background:#590000;color:#fff;text-decoration:none}
+#topPan ul li.home {width:81px;height:30px;display:block;background:#590000;color:#fff;font:12px/30px "Trebuchet MS", Arial,Helvetica,sans-serif;font-weight:bold;text-align:center;text-decoration:none}
+#topPan ul li.farright {width:81px;height:30px;float:left;border-top-style:none;border-right-style:solid;border-bottom-style:none;border-left-style:solid;border-color:#FFECFF; font-size:xx-large }
+#topcontactPan {width:153px;height:40px;background:url(images/icon1.jpg) 0 0 no-repeat #c00;color:#fff;position:absolute;top:18px;left:384px}
+#topcontactPan p.tollfree {width:78px;height:17px;background:#590000;color:#fff;font-size:11px;font-weight:bold;text-transform:uppercase;margin:4px 0 0 37px;text-align:center;line-height:17px} 
+#topcontactPan p.phoneno {font-size:18px;padding:5px 0 0 37px}
+#toptextPan {width:209px;height:83px;position:absolute;top:10px;left:184px}
+#topimagePan {width:209px;height:83px;position:absolute;top:0;right:0;background:url(images/image1.jpg) 0 0 no-repeat}
+#topheaderPan {width:230px;height:70px;position:absolute;top:10px;left:250px;background:url(images/mbiHeaderText.png) 0 0 no-repeat}
+/* BODY PANEL */ 
+#bodyPan {width:768px;position:relative;margin:0 auto}
+/* Left Entire Body Panel */
+#leftEntirePan {width:760px;float:left;padding:5px 26px 0 0}
+#leftEntirePan h1 {width:450px;height:32px;color:#2F0000;font:36px/36px "dfkai-sb", "simhei", "Times New Roman", Georgia, Times, serif;}
+#leftEntirePan h2 {width:450px;height:26px;color:#CC3333;font:30px/30px "dfkai-sb", "simhei", "Times New Roman", Georgia, Times, serif;}
+#leftEntirePan h2 span {background:#590000;}  
+#leftEntirePan p {padding:14px 0 0 0;color:#000000; font:20px/20px "dfkai-sb","simhei",Georgia, "Times New Roman", Times, serif}
+#leftEntirePan p.border {height:2px;background:url(images/doted-line.gif) 0 0 repeat-x;padding:10;margin:10px 0 0; vertical-align:middle} 
+/* Left Entire Body Block One Panel */
+#leftentireblockonePan {width:760px;float:left;padding:5px}
+#leftentireblockonePan a {font:15px/18px "dfkai-sb", "simhei", "Times New Roman", Times, Georgia, serif;text-decoration:underline;-moz-text-decoration-line: underline;padding:2;margin:0px 5 0 0px;}
+#leftentireblockonePan p {font:20px/20px "dfkai-sb", "simhei",  "Times New Roman", Times,  serif;padding:0;margin:-13px 5px 0 25px}
+#leftentireblockonePan p span {font:16px/16px "dfkai-sb", "simhei",  "Times New Roman", Times, Georgia, serif; padding:2;margin:0px 0 -15px 5px}
+#leftentireblockonePan p.border {height:12px;background:url(images/doted-line.gif) 0 0 repeat-x;padding:0;margin:10px 0 0 5px} 
+#leftentireblockonePan h2 {width:220px;height:24px;color:#CC3333;font:30px/30px "dfkai-sb", "simhei", "Times New Roman", Georgia, Times, serif;padding:3px;margin:-14px 0px 5px 0px;}
+#leftentireblockonePan h2 span {background:#590000;color:#FFFFFF;}
+#leftentireblockonePan h3 {width:380px;height:28px;background:#FFECFF;color:#CC3333;margin:0 0 0 10px;padding:6px 6px 6px 6px; font:18px/18px "dfkai-sb", "simhei", "Times New Roman", Times, serif, Georgia; text-align: left}
+#leftentireblockonePan h3 span {background:#FFECFF;color:#F10000;font:22px/22px "dfkai-sb", "simhei",  "Times New Roman", Times, Georgia, serif}
+#leftentireblockonePan h4 {width:600px;height:26px;background:#590000;color:#fff;font-size:28px;font-weight:bold;text-transform:uppercase}
+#leftentireblockonePan h4 span {background:#590000;color:#CD7A7A;font:28px/26px "dfkai-sb","simhei", "Times New Roman", Times, Georgia, serif}
+#leftentireblockonePan h5 {width:600px;height:8px;}
+#leftentireblockonePan hr {width:600px;height:8px; visibility:hidden;}
+
+#leftentireblockoneLinkPan {width:157px;height:19px;display:block;margin:5px 0 0 82px;clear:both}
+#leftentireblockoneLinkPan ul {width:157px;height:19px}
+#leftentireblockoneLinkPan ul li {height:19px;float:left;font-size:11px;text-transform:uppercase}
+#leftentireblockoneLinkPan ul li.comments {width:60px;height:19px;padding:0 30px 0 0;display:block;background:url(images/icon2.jpg) 100% 0 no-repeat #590000;color:#fff}
+#leftentireblockoneLinkPan ul li.more {width:58px;height:19px;margin:0 0 0 8px}
+#leftentireblockoneLinkPan ul li.more a {width:58px;height:19px;background:url(images/arrow1.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none;padding:0 20px 0 0}
+#leftentireblockoneLinkPan ul li.more a:hover {width:58px;height:19px;background:url(images/arrow2.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none}
+#leftentireblockoneLinktwoPan {width:157px;display:block;margin:5px 0 0 82px;clear:both}
+#leftentireblockoneLinktwoPan ul {width:157px}
+#leftentireblockoneLinktwoPan ul li {height:19px;float:left;font-size:11px;text-transform:uppercase}
+#leftentireblockoneLinktwoPan ul li.comments {width:60px;height:19px;padding:0 30px 0 0;display:block;background:url(images/icon2.jpg) 100% 0 no-repeat #590000;color:#fff}
+#leftentireblockoneLinktwoPan ul li.more {width:58px;height:19px;margin:0 0 0 8px}
+#leftentireblockoneLinktwoPan ul li.more a {width:58px;height:19px;background:url(images/arrow1.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none;padding:0 20px 0 0}
+#leftentireblockoneLinktwoPan ul li.more a:hover {width:58px;height:19px;background:url(images/arrow2.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none}
+
+/* Left Panel */
+#leftPan {width:520px;float:left;padding:18px 26px 0 0}
+#leftPan p {padding:14px 0 0;color:#000000; font:20px/20px "dfkai-sb","simhei",Georgia, "Times New Roman", Times, serif}
+#leftPan p.border {height:12px;background:url(images/doted-line.gif) 0 0 repeat-x;padding:0;margin:10px 0 0} 
+#leftPan h2 {width:220px;height:22px;color:#CC3333;font:30px/30px "dfkai-sb", "simhei", "Times New Roman", Times, Georgia, serif;margin:-5px 0 0 0;}
+#leftPan h2 span {background:#590000;}
+/* #leftPan h2 span {background:#590000;color:#F10000} */
+
+/* Left Block One */
+#leftblockonePan {width:240px;float:left;padding:10px 45px 0 0}
+#leftblockonePan p span {font-weight:bold}
+#leftblockonePan p.border {height:8px;background:url(images/doted-line.gif) 0 0 repeat-x;padding:0;margin:10px 0 0} 
+#leftblockonePan h3 {width:180px;height:40px;background:#590000;color:#fff;font:26px/40px Georgia, "Times New Roman", Times, serif}
+#leftblockonePan h3 span {background:#590000;color:#F10000}
+#leftblockonePan h4 {width:200px;height:26px;background:#590000;color:#fff;font-size:14px;font-weight:bold;text-transform:uppercase}
+#leftblockonePan h4 span {background:#590000;color:#CD7A7A;font:28px/26px Georgia, "Times New Roman", Times, serif}
+#leftblockoneLinkPan {width:157px;height:19px;display:block;margin:5px 0 0 82px;clear:both}
+#leftblockoneLinkPan ul {width:157px;height:19px}
+#leftblockoneLinkPan ul li {height:19px;float:left;font-size:11px;text-transform:uppercase}
+#leftblockoneLinkPan ul li.comments {width:60px;height:19px;padding:0 30px 0 0;display:block;background:url(images/icon2.jpg) 100% 0 no-repeat #590000;color:#fff}
+#leftblockoneLinkPan ul li.more {width:58px;height:19px;margin:0 0 0 8px}
+#leftblockoneLinkPan ul li.more a {width:58px;height:19px;background:url(images/arrow1.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none;padding:0 20px 0 0}
+#leftblockoneLinkPan ul li.more a:hover {width:58px;height:19px;background:url(images/arrow2.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none}
+#leftblockoneLinktwoPan {width:157px;display:block;margin:5px 0 0 82px;clear:both}
+#leftblockoneLinktwoPan ul {width:157px}
+#leftblockoneLinktwoPan ul li {height:19px;float:left;font-size:11px;text-transform:uppercase}
+#leftblockoneLinktwoPan ul li.comments {width:60px;height:19px;padding:0 30px 0 0;display:block;background:url(images/icon2.jpg) 100% 0 no-repeat #590000;color:#fff}
+#leftblockoneLinktwoPan ul li.more {width:58px;height:19px;margin:0 0 0 8px}
+#leftblockoneLinktwoPan ul li.more a {width:58px;height:19px;background:url(images/arrow1.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none;padding:0 20px 0 0}
+#leftblockoneLinktwoPan ul li.more a:hover {width:58px;height:19px;background:url(images/arrow2.gif) 100% 2px no-repeat #590000;color:#fff;text-decoration:none}
+/* Left Block Two Panel */
+#leftblocktwoPan {width:192px;float:left;padding:10px 0 0}
+#leftblocktwoPan h3 {width:180px;height:50px;background:#590000;color:#fff;font:26px/50px Georgia, "Times New Roman", Times, serif}
+#leftblocktwoPan h3 span {background:#590000;color:#F10000}
+#leftblocktwoPan ul {width:192px}
+#leftblocktwoPan ul li {float:left}
+#leftblocktwoPan ul li.bookname {width:150px;height:18px;display:block;background:url(images/arrow.gif) 0 6px no-repeat #590000;color:#CD7A7A;font-size:12px;line-height:18px;padding:0 0 0 10px}
+#leftblocktwoPan ul li.price {width:25px;height:18px;display:block;background:#590000;color:#fff;font-weight:bold;line-height:18px}
+#leftblocktwoPan p {width:190px;height:42px;float:left;display:block;background:url(images/icon3.gif) 100% 0 no-repeat #590000;color:#fff;font-size:16px;text-transform:uppercase;margin:10px 0 0}
+#leftblocktwoPan p span {font-size:11px;font-weight:bold;text-transform:uppercase}
+/* Right Panel */
+#rightPan {width:209px;float:right;padding:20px 0 0}
+#rightPan form.form1 {width:209px;height:168px;background:url(images/form1-bg.gif) 0 0 no-repeat #590000;color:#fff}
+#rightPan form.form1 h2 {width:189px;height:36px;background:url(images/member-bg.gif) 0 0 no-repeat;padding:0 0 0 20px;font:22px/36px Georgia, "Times New Roman", Times, serif;margin:0 0 8px 0px}
+#rightPan form.form1 label {width:66px;height:18px;float:left;display:block;font-size:13px;line-height:18px;padding:0 0 0 21px;margin:9px 0 0}
+#rightPan form.form1 label.label1 {width:138px;height:16px;float:left;display:block;background:#2F0000;color:#FC0404;font-size:10px;text-transform:uppercase;margin:9px 0 0 2px;padding:0 0 0 19px}
+#rightPan form.form1 input {width:100px;height:18px;float:left;display:block;padding:0;margin:9px 0 0}
+#rightPan form.form1 input.botton {width:30px;height:14px;float:left;display:block;background:url(images/botton.gif) 100% 3px no-repeat #2F0000;color:#fff;font-size:12px;border:none;padding:0 10px 0 0;margin:9px 0 0;line-height:14px}
+#rightPan h2 {width:189px;height:36px;background:url(images/member-bg.gif) 0 0 no-repeat;padding:0 0 0 20px;font:30px/30px Georgia, "Times New Roman", Times, serif;margin:0 0 8px 0}
+#rightPan h3 {width:188px;height:33px;background:#3C0101;color:#fff;font:26px/26px Georgia, "Times New Roman", Times, serif;padding:18px 0 0 21px;margin:13px 0 0}
+#rightPan ul {width:188px;height:129px;padding:0 0 0 21px;background:#3C0101;color:#fff;margin:0 0 13px 0}
+#rightPan ul li {width:141px;height:26px}
+#rightPan ul li a {width:141px;height:18px;background:url(images/arrow3.gif) 0 5px no-repeat #3C0101;color:#fff;font-size:18px;text-decoration:none;line-height:18px;padding:0 0 0 15px}
+#rightPan ul li a:hover {width:141px;height:18px;background:url(images/arrow4.gif) 0 5px no-repeat #3C0101;color:#FFD6D6;text-decoration:none} 
+#rightform2Pan {width:209px;position:relative;margin:0 auto}
+#rightPan form.form2 {width:209px;height:111px;background:url(images/form1-bg.gif) 0 0 no-repeat #2F0000;color:#fff;font-size:12px}
+#rightPan form.form2 h2 {width:189px;height:36px;background:url(images/member-bg.gif) 0 0 no-repeat;padding:0 0 0 20px;font:20px/36px Georgia, "Times New Roman", Times, serif;margin:0 0 8px 0}
+#rightPan form.form2 label {width:43px;height:18px;float:left;display:block;font-size:12px;padding:0 0 0 12px;line-height:18px}
+#rightPan form.form2 input {width:100px;height:18px;float:left;display:block;padding:0}
+#rightPan form.form2 select {width:41px;height:20px;float:left;display:block;background:#fff;color:#000;font-size:14px;margin:0 0 0 4px} 
+#rightPan form.form2 input.search {width:60px;height:20px;float:right;display:block;background:url(images/botton2.gif) 100% 6px no-repeat #2F0000;border:none;color:#fff;font-size:12px;line-height:20px;padding:0 25px 0 0;position:absolute;top:78px;right:8px} 
+/* BOTTOM BODY PANEL */
+#bodyBottomPan {width:778px;height:40px;background:url(images/body-bottombg.gif) 0 0 repeat-x #590000;color:#CD7A7A;position:relative;margin:0 auto;clear:both;padding:52px 0 0}
+#BottomLeftPan {width:178px;float:left}
+#BottomLeftPan p {background:#590000;color:#fff;font:30px/25px Georgia, "Times New Roman", Times, serif;padding:0 0 0 32px}
+#BottomLeftPan p span {font-size:21px;text-transform:uppercase}
+#BottomMiddlePan {width:393px;float:left;background:url(images/image2.gif) 100% 0 no-repeat;padding:0 206px 0 0}
+#BottomMiddlePan p.more {width:70px;height:16px;margin:5px 0 30px 318px}
+#BottomMiddlePan p.more a {width:60px;height:16px;display:block;background:url(images/botton2.gif) 85% 50% no-repeat #3C0101;color:#fff;text-transform:uppercase;font-size:11px;line-height:18px;text-decoration:none;padding:0 0 0 10px}
+#BottomMiddlePan p.more a:hover {background:url(images/botton2.gif) 85% 50% no-repeat #3C0101;color:#F10000;text-decoration:none}
+/* FOOTER PANEL */
+#footerPan {width:778px;height:25px;background:#2F0000;color:#fff;position:relative;margin:0 auto;font:12px/16px "Trebuchet MS", Arial,Helvetica,sans-serif;clear:both;padding:26px 0 0}
+#footerPan ul {width:400px;position:relative;margin:0 auto}
+#footerPan li {float:left}
+#footerPan ul li a {padding:0 10px 0;color:#fff;background:#2F0000;text-decoration:none}
+#footerPan ul li a:hover {text-decoration:underline}
+#footerPan .copyright {background:#2F0000;color:#fff;top:48px;font-size:11px;padding:11px}
+#footerPan ul.templateworld {background:#2F0000;color:#fff;display:block;position:absolute;top:68px;left:198px;font-size:10px}
+#footerPan ul.templateworld li {height:20px}
+#footerPan ul.templateworld li a {background:#2F0000;display:block;color:#fff;text-decoration:none}
+#footerPan ul.templateworld li a:hover {text-decoration:underline}
+#footerPanhtml {width:62px;height:12px;display:block;position:absolute;top:50px;left:400px}
+#footerPanhtml a {width:48px;height:12px;display:block;background:url(images/xhtml-normal.gif) 85% 60% no-repeat #B70000;color:#fff;line-height:12px;font-size:11px;font-weight:bold;text-decoration:none;padding:0 0 0 10px}
+#footerPanhtml a:hover {background:url(images/css-normal.gif) 85% 60% no-repeat #913C3C;color:#fff}
+#footerPancss {width:50px;height:12px;display:block;position:absolute;top:50px;left:460px}
+#footerPancss a {width:40px;height:12px;display:block;background:url(images/css-normal.gif) 35px 3px no-repeat #913C3C;color:#fff;line-height:12px;font-size:11px;font-weight:bold;text-decoration:none;padding:0 0 0 10px;text-transform:uppercase}
+#footerPancss a:hover {background:url(images/xhtml-normal.gif) 35px 3px no-repeat #B70000;color:#fff}
