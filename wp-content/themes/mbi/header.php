@@ -52,8 +52,8 @@
 <link href="main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="topPan"><!--<img src="images/maitreyabuddha01.gif" mce_src="http://localhost:8888/wordpress/wp-content/uploads/2013/02/maitreyabuddha01.gif" title="Maitreya Buddhist Institute" alt="Maitreya Buddhist Institute" width="100" height="127" class="logo" />
-<div id="topimagePan"><img src="images/blank.gif" mce_src="http://localhost:8888/wordpress/wp-content/uploads/2013/02/blank" alt="" /></div>
---> 	<img class="logo2" title="Maitreya Buddhist Institute" src="http://localhost:8888/wordpress/wp-content/uploads/2013/02/maitreyabuddha01.gif" alt="Maitreya Buddhist Institute" /> 
+<div id="topPan"><!--<img src="images/maitreyabuddha01.gif" mce_src="wp-content/uploads/2013/02/maitreyabuddha01.gif" title="Maitreya Buddhist Institute" alt="Maitreya Buddhist Institute" width="100" height="127" class="logo" />
+<div id="topimagePan"><img src="images/blank.gif" mce_src="wp-content/uploads/2013/02/blank" alt="" /></div>
+--> 	<img class="logo2" title="Maitreya Buddhist Institute" src="wp-content/uploads/2013/02/maitreyabuddha01.gif" alt="Maitreya Buddhist Institute" /> 
 
 </div>
