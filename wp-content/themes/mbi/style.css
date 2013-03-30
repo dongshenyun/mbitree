@@ -1,12 +1,14 @@
 /*
 Theme Name: mbi
 Theme URI: Your Theme's URI
-Description: A brief description.
+Description: A theme for MBITree
 Version: 1.0
-Author: D
-Author URI: Your website address.
+Author: DHo
+Author URI: Dho.com
 */
 
+@import url("css/ie.css");
+@import url("css/master.css");
 
 * {margin:0;padding:0}
 .fleft {float:left}
@@ -74,9 +76,9 @@ ul {list-style-type:none}
 
 /* Left Panel */
 #leftPan {width:520px;float:left;padding:18px 26px 0 0}
-#leftPan p {padding:14px 0 0;color:#000000; font:20px/20px "dfkai-sb","simhei",Georgia, "Times New Roman", Times, serif}
+#leftPan p {padding:10px 0 0;color:#000000; font:20px/20px "dfkai-sb","simhei",Georgia, "Times New Roman", Times, serif}
 #leftPan p.border {height:12px;background:url(images/doted-line.gif) 0 0 repeat-x;padding:0;margin:10px 0 0} 
-#leftPan h2 {width:220px;height:22px;color:#CC3333;font:30px/30px "dfkai-sb", "simhei", "Times New Roman", Times, Georgia, serif;margin:-5px 0 0 0;}
+#leftPan h2 {width:220px;color:#CC3333;font:30px/30px "dfkai-sb", "simhei", "Times New Roman", Times, Georgia, serif;margin:10px 0;}
 #leftPan h2 span {background:#590000;}
 /* #leftPan h2 span {background:#590000;color:#F10000} */
 

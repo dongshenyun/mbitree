@@ -1,8 +1,11 @@
-
-
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if lt IE 9]>
+<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<!--  彌勒學院 Maitreya Buddhist Institute -->
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -14,22 +17,16 @@
 	// Add the blog name.
 	bloginfo( 'name' );
 
-	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
-
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
-		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+		echo ' | ' . sprintf( __( 'Page %s', 'MBI' ), max( $paged, $page ) );
+?></title>
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-	?></title>
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-<![endif]-->
+
+<link rel="stylesheet" type="text/css" media="screen,projection" href="css/style.css" />
+<link href="main.css" rel="stylesheet" type="text/css" />
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).
@@ -46,14 +43,21 @@
 ?>
 </head>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>彌勒學院 Maitreya Buddhist Institute</title>
-<link href="main.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-<div id="topPan"><!--<img src="images/maitreyabuddha01.gif" mce_src="wp-content/uploads/2013/02/maitreyabuddha01.gif" title="Maitreya Buddhist Institute" alt="Maitreya Buddhist Institute" width="100" height="127" class="logo" />
-<div id="topimagePan"><img src="images/blank.gif" mce_src="wp-content/uploads/2013/02/blank" alt="" /></div>
---> 	<img class="logo2" title="Maitreya Buddhist Institute" src="wp-content/uploads/2013/02/maitreyabuddha01.gif" alt="Maitreya Buddhist Institute" /> 
-
+<div id="topPan">
+<!--<img src="images/maitreyabuddha01.gif" mce_src="images/maitreyabuddha01.gif" title="Maitreya Buddhist Institute" alt="Maitreya Buddhist Institute" width="100" height="127" class="logo" />
+	<div id="topimagePan">
+		<img src="images/blank.gif" mce_src="images/blank.gif" alt="" />
+	</div>
+-->
+	<img class="logo2" title="Maitreya Buddhist Institute" src="<?php print IMAGES; ?>/maitreyabuddha01.gif" alt="Maitreya Buddhist Institute" />
+	<div id="topheaderPan"></div>
+	<?php wp_nav_menu( array('menu' => 'Main', 'container' => 'mbi-nav' )); ?> 
+	<!--  
+	<ul>
+		<li class="home">首頁</li>
+		<li><a href="AudioTeachings.html">課程錄音</a></li>
+		<li><a href="Donations.html">護持道場</a></li>
+		<li class="farright"><a href="ContactUs.html">聯繫學院</a></li>
+	</ul>
+	-->
 </div>
