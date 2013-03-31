@@ -11,9 +11,8 @@
 			        <?php wp_link_pages(); ?>
 			    </div><!--end entry-->
 			    <div class="post-footer">
-			        <!--  
 			        	<div class="comments"><?php comments_popup_link( 'Leave a Comment', '1 Comment', '% Comments' ); ?></div>
-			        --->		    </div>
+				</div>
 			</div><!--end post-->
 			<?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
 
